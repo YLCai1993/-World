@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>http://buy.duitang.com/buy/subCategory/?title=%E6%8A%A4%E8%82%A4&amp;dttrace=a&amp;spuname=inv_%E6%8A%A4%E8%82%A4&amp;spm=b1</string>
+	<string>http://buy.duitang.com/buy/subCategory/?title=%E5%BD%A9%E5%A6%86&amp;dttrace=a&amp;spuname=inv_%E5%BD%A9%E5%A6%86&amp;spm=b1</string>
+	<string>http://buy.duitang.com/buy/subCategory/?title=%E4%B8%AA%E4%BA%BA%E6%8A%A4%E7%90%86&amp;dttrace=a&amp;spuname=inv_%E4%B8%AA%E4%BA%BA%E6%8A%A4%E7%90%86&amp;spm=b1</string>
+	<string>http://buy.duitang.com/buy/subCategory/?title=%E7%BE%8E%E9%A3%9F&amp;dttrace=a&amp;spuname=inv_%E8%BF%9B%E5%8F%A3%E9%A3%9F%E5%93%81&amp;spm=b1</string>
+	<string>http://buy.duitang.com/buy/subCategory/?title=%E6%96%87%E5%85%B7%E6%89%8B%E5%B8%90&amp;dttrace=a&amp;spuname=inv_%E6%96%87%E5%85%B7&amp;spm=b1</string>
+	<string>http://buy.duitang.com/buy/subCategory/?title=%E5%AE%B6%E5%B1%85&amp;dttrace=a&amp;spuname=inv_%E5%AE%B6%E5%B1%85&amp;spm=b1</string>
+	<string>http://buy.duitang.com/buy/hotSingleGoods/?dttrace=a&amp;spm=b1</string>
+	<string>http://buy.duitang.com/buy/allCategory/?dttrace=a&amp;category=%E5%85%A8%E9%83%A8%E5%88%86%E7%B1%BB&amp;spm=b1</string>
+	<string>http://buy.duitang.com/buy/newSingleGoods/?dttrace=a&amp;spm=b1</string>
+	<string>http://buy.duitang.com/buy/shoprankList/?dttrace=a&amp;spm=b1</string>
+	<string>http://buy.duitang.com/buy/coupon/freshman/?dttrace=a&amp;spm=b1</string>
+</array>
+</plist>

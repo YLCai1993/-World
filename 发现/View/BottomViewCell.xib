@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BottomViewCell" rowHeight="775" id="KGk-i7-Jjw" customClass="BottomViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="639"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="638"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cx1-fS-YWk">
+                        <rect key="frame" x="18" y="18" width="108" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="  美食菜谱" image="meishi">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wr4-Ic-Yh8">
+                        <rect key="frame" x="200" y="18" width="103" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="  手工DIY" image="shougong">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZvL-Hv-fQt">
+                        <rect key="frame" x="18" y="76" width="108" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="  插画绘画" image="chahua">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ca-0v-Nr8">
+                        <rect key="frame" x="200" y="76" width="108" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="  家居生活" image="jiaju">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLc-8m-96I">
+                        <rect key="frame" x="18" y="134" width="78" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="  旅行" image="lvxing">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DlY-zU-IC8">
+                        <rect key="frame" x="18" y="237" width="108" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="  时尚街拍" image="jiepai">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P1O-xL-XlK">
+                        <rect key="frame" x="200" y="237" width="108" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="  美发造型" image="meifa">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXa-3u-utt">
+                        <rect key="frame" x="18" y="295" width="108" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="  美容美妆" image="meirong">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRc-Ip-v3S">
+                        <rect key="frame" x="200" y="295" width="108" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="  婚纱婚礼" image="hunsha">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWB-dd-wK4">
+                        <rect key="frame" x="18" y="398" width="78" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="  萌宠" image="mengcong">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9e-qe-wwN">
+                        <rect key="frame" x="200" y="398" width="108" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="  头像表情" image="touxiang">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKw-sz-Rr8">
+                        <rect key="frame" x="18" y="456" width="78" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="  壁纸" image="bizhi">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mbf-fo-Lq7">
+                        <rect key="frame" x="200" y="456" width="108" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="  美图摄影" image="sheying">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WdS-0g-6zJ">
+                        <rect key="frame" x="200" y="514" width="108" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="  文字句子" image="wenzi">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QsA-We-aMB">
+                        <rect key="frame" x="18" y="572" width="78" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="  设计" image="sheji">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9he-tQ-Xh6">
+                        <rect key="frame" x="18" y="514" width="93" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="  影音书" image="yingyinshu">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=".   .   ." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wcr-pI-jWH">
+                        <rect key="frame" x="130" y="353" width="77" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="77" id="cn5-gl-bP8"/>
+                            <constraint firstAttribute="height" constant="31" id="dYn-Rh-fjb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=".   .   ." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4f-IO-sBE">
+                        <rect key="frame" x="130" y="183" width="77" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="77" id="cez-aa-MRb"/>
+                            <constraint firstAttribute="height" constant="31" id="lbV-iV-jBK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="WdS-0g-6zJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="200" id="2hV-Ln-gvM"/>
+                    <constraint firstItem="fKw-sz-Rr8" firstAttribute="leading" secondItem="XWB-dd-wK4" secondAttribute="leading" id="59J-l8-qgb"/>
+                    <constraint firstItem="gRc-Ip-v3S" firstAttribute="top" secondItem="nXa-3u-utt" secondAttribute="top" id="5sG-5q-fFx"/>
+                    <constraint firstItem="Wcr-pI-jWH" firstAttribute="top" secondItem="gRc-Ip-v3S" secondAttribute="bottom" constant="18" id="7HI-Sa-Ul8"/>
+                    <constraint firstItem="gRc-Ip-v3S" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="200" id="7i1-um-sHy"/>
+                    <constraint firstItem="g4f-IO-sBE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="130" id="8Js-Ql-dQa"/>
+                    <constraint firstItem="ZvL-Hv-fQt" firstAttribute="top" secondItem="Cx1-fS-YWk" secondAttribute="bottom" constant="18" id="B4j-43-2Tm"/>
+                    <constraint firstItem="K9e-qe-wwN" firstAttribute="top" secondItem="XWB-dd-wK4" secondAttribute="top" id="BsN-7p-1im"/>
+                    <constraint firstItem="Cx1-fS-YWk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="18" id="DMk-oR-tcl"/>
+                    <constraint firstItem="P1O-xL-XlK" firstAttribute="top" secondItem="DlY-zU-IC8" secondAttribute="top" id="Dpq-MM-q3q"/>
+                    <constraint firstItem="ZvL-Hv-fQt" firstAttribute="leading" secondItem="Cx1-fS-YWk" secondAttribute="leading" id="GsG-hT-TH3"/>
+                    <constraint firstItem="nXa-3u-utt" firstAttribute="top" secondItem="DlY-zU-IC8" secondAttribute="bottom" constant="18" id="Kbp-D4-thd"/>
+                    <constraint firstItem="wr4-Ic-Yh8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="200" id="M9Y-cf-aoi"/>
+                    <constraint firstItem="XWB-dd-wK4" firstAttribute="leading" secondItem="nXa-3u-utt" secondAttribute="leading" id="OMT-GJ-IMd"/>
+                    <constraint firstItem="DlY-zU-IC8" firstAttribute="leading" secondItem="aLc-8m-96I" secondAttribute="leading" id="PzC-bi-YAb"/>
+                    <constraint firstAttribute="trailing" secondItem="g4f-IO-sBE" secondAttribute="trailing" constant="168" id="UHV-R8-MYh"/>
+                    <constraint firstItem="nXa-3u-utt" firstAttribute="leading" secondItem="DlY-zU-IC8" secondAttribute="leading" id="Upf-Cm-HS1"/>
+                    <constraint firstItem="K9e-qe-wwN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="200" id="VMq-1S-n5K"/>
+                    <constraint firstItem="9he-tQ-Xh6" firstAttribute="leading" secondItem="fKw-sz-Rr8" secondAttribute="leading" id="bhZ-63-ZMY"/>
+                    <constraint firstItem="Mbf-fo-Lq7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="200" id="d6I-Vu-E10"/>
+                    <constraint firstItem="P1O-xL-XlK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="200" id="fOV-Z8-QtL"/>
+                    <constraint firstItem="QsA-We-aMB" firstAttribute="top" secondItem="9he-tQ-Xh6" secondAttribute="bottom" constant="18" id="fZU-gS-2hX"/>
+                    <constraint firstItem="fKw-sz-Rr8" firstAttribute="top" secondItem="XWB-dd-wK4" secondAttribute="bottom" constant="18" id="fev-p5-can"/>
+                    <constraint firstItem="Cx1-fS-YWk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="iPQ-er-USt"/>
+                    <constraint firstItem="aLc-8m-96I" firstAttribute="top" secondItem="ZvL-Hv-fQt" secondAttribute="bottom" constant="18" id="jYY-Us-XSR"/>
+                    <constraint firstItem="9he-tQ-Xh6" firstAttribute="top" secondItem="fKw-sz-Rr8" secondAttribute="bottom" constant="18" id="kuH-7N-jdE"/>
+                    <constraint firstItem="XWB-dd-wK4" firstAttribute="top" secondItem="nXa-3u-utt" secondAttribute="bottom" constant="63" id="n1e-Wh-eqo"/>
+                    <constraint firstItem="wr4-Ic-Yh8" firstAttribute="top" secondItem="Cx1-fS-YWk" secondAttribute="top" id="nEO-Wj-kBQ"/>
+                    <constraint firstItem="WdS-0g-6zJ" firstAttribute="top" secondItem="9he-tQ-Xh6" secondAttribute="top" id="nsa-Rd-iOt"/>
+                    <constraint firstItem="1ca-0v-Nr8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="200" id="oXT-8d-rLt"/>
+                    <constraint firstItem="1ca-0v-Nr8" firstAttribute="top" secondItem="ZvL-Hv-fQt" secondAttribute="top" id="p2E-Q6-dyH"/>
+                    <constraint firstItem="K9e-qe-wwN" firstAttribute="top" secondItem="Wcr-pI-jWH" secondAttribute="bottom" constant="14" id="pKR-v7-Zz7"/>
+                    <constraint firstAttribute="trailing" secondItem="Wcr-pI-jWH" secondAttribute="trailing" constant="168" id="qBx-8W-aX9"/>
+                    <constraint firstItem="P1O-xL-XlK" firstAttribute="top" secondItem="g4f-IO-sBE" secondAttribute="bottom" constant="23" id="sMD-jW-OxH"/>
+                    <constraint firstItem="Wcr-pI-jWH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="130" id="sgT-cv-A15"/>
+                    <constraint firstItem="DlY-zU-IC8" firstAttribute="top" secondItem="aLc-8m-96I" secondAttribute="bottom" constant="63" id="suo-Gr-A7Y"/>
+                    <constraint firstItem="aLc-8m-96I" firstAttribute="leading" secondItem="ZvL-Hv-fQt" secondAttribute="leading" id="tgj-hT-8Ci"/>
+                    <constraint firstItem="Mbf-fo-Lq7" firstAttribute="top" secondItem="fKw-sz-Rr8" secondAttribute="top" id="u1M-KT-1hr"/>
+                    <constraint firstItem="g4f-IO-sBE" firstAttribute="top" secondItem="1ca-0v-Nr8" secondAttribute="bottom" constant="67" id="y45-bP-LZy"/>
+                    <constraint firstItem="QsA-We-aMB" firstAttribute="leading" secondItem="9he-tQ-Xh6" secondAttribute="leading" id="z2x-3w-mFL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outletCollection property="buttons" destination="Cx1-fS-YWk" id="1eY-Fs-0M5"/>
+                <outletCollection property="buttons" destination="wr4-Ic-Yh8" id="EEz-fD-Bjx"/>
+                <outletCollection property="buttons" destination="ZvL-Hv-fQt" id="kKw-aX-aTZ"/>
+                <outletCollection property="buttons" destination="1ca-0v-Nr8" id="2RN-h3-bia"/>
+                <outletCollection property="buttons" destination="aLc-8m-96I" id="S6n-5t-0ut"/>
+                <outletCollection property="buttons" destination="DlY-zU-IC8" id="wSc-MW-t6U"/>
+                <outletCollection property="buttons" destination="P1O-xL-XlK" id="lpl-zy-9Rf"/>
+                <outletCollection property="buttons" destination="nXa-3u-utt" id="AAa-lC-2y7"/>
+                <outletCollection property="buttons" destination="gRc-Ip-v3S" id="XOk-IG-T2v"/>
+                <outletCollection property="buttons" destination="XWB-dd-wK4" id="mOK-ls-LRs"/>
+                <outletCollection property="buttons" destination="K9e-qe-wwN" id="grI-qH-GdD"/>
+                <outletCollection property="buttons" destination="fKw-sz-Rr8" id="VT5-Vd-QSA"/>
+                <outletCollection property="buttons" destination="Mbf-fo-Lq7" id="BHz-Od-Bpa"/>
+                <outletCollection property="buttons" destination="9he-tQ-Xh6" id="8Rc-eE-Vhj"/>
+                <outletCollection property="buttons" destination="WdS-0g-6zJ" id="TYK-Wr-ueO"/>
+                <outletCollection property="buttons" destination="QsA-We-aMB" id="nie-xN-CB6"/>
+            </connections>
+            <point key="canvasLocation" x="177.5" y="363.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bizhi" width="40" height="40"/>
+        <image name="chahua" width="40" height="40"/>
+        <image name="hunsha" width="40" height="40"/>
+        <image name="jiaju" width="40" height="40"/>
+        <image name="jiepai" width="40" height="40"/>
+        <image name="lvxing" width="40" height="40"/>
+        <image name="meifa" width="40" height="40"/>
+        <image name="meirong" width="40" height="40"/>
+        <image name="meishi" width="40" height="40"/>
+        <image name="mengcong" width="40" height="40"/>
+        <image name="sheji" width="40" height="40"/>
+        <image name="sheying" width="40" height="40"/>
+        <image name="shougong" width="40" height="40"/>
+        <image name="touxiang" width="40" height="40"/>
+        <image name="wenzi" width="40" height="40"/>
+        <image name="yingyinshu" width="40" height="40"/>
+    </resources>
+</document>
